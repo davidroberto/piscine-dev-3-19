@@ -257,6 +257,11 @@ class DefaultController extends Controller
 		$entityManager->persist($article);
 		$entityManager->flush();
 
-		var_dump('article enregistré'); die;
+		return $this->render(
+			'article/article_create.html.twig',
+			[
+				'article' => $article
+			]
+		);
 	}
 }
