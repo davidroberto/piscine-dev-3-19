@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <main>
+        <article class="single_article">
+            <h1 class="single_title">{{ article.title | capitalize }}</h1>
+            <img class="single_img" src="{{ article.img }}" alt="">
+            <p class="single_content">{{ article.content }}</p>
+        </article>
+    </main>
+{% endblock %}

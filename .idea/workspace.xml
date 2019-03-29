@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a10074bc-dd73-4712-96fd-8ae1d6798a49" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" phpInterpreterId="03610e20-9ed9-433d-9e9d-34c18eec0e6b">
+    <pharConfigPath>$PROJECT_DIR$/../movies-rest/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="piscine-exo-installer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/twig_beginner.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/twig_exo/variable.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/twig_exo/array_multi.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/_article/_loop_articles.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/twig_exo/json.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/twig_exo/article_single.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/css/sass/main.scss" />
+        <option value="$PROJECT_DIR$/web/assets/css/sass/_home.scss" />
+        <option value="$PROJECT_DIR$/web/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/web/assets/css/sass/_detail.scss" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Book.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="/Applications/MAMP/bin/php/php7.2.8/lib/php" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/theofidry/alice-data-fixtures" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/willdurand/hateoas" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/willdurand/hateoas-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/composer" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/friendsofsymfony/http-cache" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/friendsofsymfony/http-cache-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/hautelook/alice-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/nelmio/alice" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/php-http/client-common" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../movies-rest/vendor/symfony/polyfill-php56" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piscine-exo-installer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/assets/img" />
+      <recent name="$PROJECT_DIR$/web/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a10074bc-dd73-4712-96fd-8ae1d6798a49" name="Default" comment="" />
+      <created>1553074502348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553074502348</updated>
+      <workItem from="1553074505657" duration="2367000" />
+      <workItem from="1553085178619" duration="10078000" />
+      <workItem from="1553157663894" duration="8995000" />
+      <workItem from="1553243918506" duration="4751000" />
+      <workItem from="1553503488166" duration="10809000" />
+      <workItem from="1553605958244" duration="2041000" />
+      <workItem from="1553762101995" duration="8008000" />
+      <workItem from="1553852532663" duration="1324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48373000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <marker date="1553786990000" expanded="true" signature="73:183" ph=" Book ..." />
+            <marker date="1553786990000" expanded="true" signature="196:1881" ph="{...}" />
+            <marker date="1553786990000" expanded="true" signature="206:340" ph=" @var int ..." />
+            <marker date="1553786990000" expanded="true" signature="368:460" ph=" @var string ..." />
+            <marker date="1553786990000" expanded="true" signature="491:586" ph=" @var int ..." />
+            <marker date="1553786990000" expanded="true" signature="619:713" ph=" @var string ..." />
+            <marker date="1553786990000" expanded="true" signature="745:840" ph=" @var string ..." />
+            <marker date="1553786990000" expanded="true" signature="871:890" ph=" @return int ..." />
+            <marker date="1553786990000" expanded="true" signature="924:946" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="953:975" ph=" @param int $id ..." />
+            <marker date="1553786990000" expanded="true" signature="1013:1034" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1041:1063" ph=" @return string ..." />
+            <marker date="1553786990000" expanded="true" signature="1103:1128" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1135:1163" ph=" @param string $title ..." />
+            <marker date="1553786990000" expanded="true" signature="1210:1237" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1244:1263" ph=" @return int ..." />
+            <marker date="1553786990000" expanded="true" signature="1302:1329" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1336:1363" ph=" @param int $nbPages ..." />
+            <marker date="1553786990000" expanded="true" signature="1411:1442" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1449:1471" ph=" @return string ..." />
+            <marker date="1553786990000" expanded="true" signature="1512:1538" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1545:1574" ph=" @param string $resume ..." />
+            <marker date="1553786990000" expanded="true" signature="1623:1652" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1659:1681" ph=" @return string ..." />
+            <marker date="1553786990000" expanded="true" signature="1724:1752" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1759:1790" ph=" @param string $category ..." />
+            <marker date="1553786990000" expanded="true" signature="1843:1876" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/sass/_detail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+          <folding>
+            <marker date="1553871372000" expanded="true" signature="44:268" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="312:6943" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="320:512" ph=" action de controleur qui, pour l'url &quot;/&quot;, exécute la méthode indexAction, ..." />
+            <marker date="1553871372000" expanded="true" signature="564:805" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="660:797" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="688:796" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="814:856" ph=" @Route(&quot;/dump&quot;, name=&quot;dump&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="891:932" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="941:999" ph=" @Route(&quot;/response_symfony&quot;, name=&quot;response&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1038:1148" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1157:1213" ph=" @Route(&quot;/redirection&quot;, name=&quot;redirection&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1255:1418" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1427:1507" ph=" @Route(&quot;/request_query_parameter&quot;, name=&quot;request_query_parameter&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1575:1642" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1651:1700" ph=" @Route(&quot;/blog/{page}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1740:1779" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1785:1838" ph=" @Route(&quot;/blog_data/{page}&quot;, name=&quot;blog_data&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1879:2236" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2093:2146" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2179:2232" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2242:2287" ph=" @Route(&quot;/dump&quot;, name=&quot;twig_beginner&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2327:2392" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2398:2458" ph=" @Route(&quot;/twig_variable/{age}&quot;, name=&quot;twig_variable&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2502:2685" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2586:2680" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2625:2676" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2691:2735" ph=" @Route(&quot;/articles&quot;, name=&quot;articles&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2775:3798" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2794:3688" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2799:3015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3022:3238" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3245:3461" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3468:3684" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3715:3793" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3757:3789" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3804:3860" ph=" @Route(&quot;/articles/{id}&quot;, name=&quot;articles_single&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="3905:5021" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="3924:4818" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3929:4145" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4152:4368" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4375:4591" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4598:4814" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4907:5015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4952:5011" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5027:5063" ph=" @Route(&quot;/json&quot;, name=&quot;json&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5095:5710" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="5628:5705" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5663:5701" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5716:5766" ph=" @Route(&quot;/article_bdd&quot;, name=&quot;article_bdd&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5804:6238" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="6036:6050" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="6244:6300" ph=" @Route(&quot;/article_create&quot;, name=&quot;article_create&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="6341:6941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="138" selection-end-column="10" />
+          <folding>
+            <marker date="1553871372000" expanded="true" signature="44:268" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="312:6943" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="320:512" ph=" action de controleur qui, pour l'url &quot;/&quot;, exécute la méthode indexAction, ..." />
+            <marker date="1553871372000" expanded="true" signature="564:805" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="660:797" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="688:796" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="814:856" ph=" @Route(&quot;/dump&quot;, name=&quot;dump&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="891:932" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="941:999" ph=" @Route(&quot;/response_symfony&quot;, name=&quot;response&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1038:1148" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1157:1213" ph=" @Route(&quot;/redirection&quot;, name=&quot;redirection&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1255:1418" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1427:1507" ph=" @Route(&quot;/request_query_parameter&quot;, name=&quot;request_query_parameter&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1575:1642" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1651:1700" ph=" @Route(&quot;/blog/{page}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1740:1779" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1785:1838" ph=" @Route(&quot;/blog_data/{page}&quot;, name=&quot;blog_data&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1879:2236" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2093:2146" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2179:2232" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2242:2287" ph=" @Route(&quot;/dump&quot;, name=&quot;twig_beginner&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2327:2392" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2398:2458" ph=" @Route(&quot;/twig_variable/{age}&quot;, name=&quot;twig_variable&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2502:2685" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2586:2680" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2625:2676" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2691:2735" ph=" @Route(&quot;/articles&quot;, name=&quot;articles&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2775:3798" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2794:3688" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2799:3015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3022:3238" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3245:3461" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3468:3684" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3715:3793" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3757:3789" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3804:3860" ph=" @Route(&quot;/articles/{id}&quot;, name=&quot;articles_single&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="3905:5021" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="3924:4818" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3929:4145" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4152:4368" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4375:4591" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4598:4814" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4907:5015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4952:5011" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5027:5063" ph=" @Route(&quot;/json&quot;, name=&quot;json&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5095:5710" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="5628:5705" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5663:5701" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5716:5766" ph=" @Route(&quot;/article_bdd&quot;, name=&quot;article_bdd&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5804:6238" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="6036:6050" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="6244:6300" ph=" @Route(&quot;/article_create&quot;, name=&quot;article_create&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="6341:6941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <marker date="1553871372000" expanded="true" signature="44:268" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="312:6943" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="320:512" ph=" action de controleur qui, pour l'url &quot;/&quot;, exécute la méthode indexAction, ..." />
+            <marker date="1553871372000" expanded="true" signature="564:805" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="660:797" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="688:796" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="814:856" ph=" @Route(&quot;/dump&quot;, name=&quot;dump&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="891:932" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="941:999" ph=" @Route(&quot;/response_symfony&quot;, name=&quot;response&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1038:1148" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1157:1213" ph=" @Route(&quot;/redirection&quot;, name=&quot;redirection&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1255:1418" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1427:1507" ph=" @Route(&quot;/request_query_parameter&quot;, name=&quot;request_query_parameter&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1575:1642" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1651:1700" ph=" @Route(&quot;/blog/{page}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1740:1779" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1785:1838" ph=" @Route(&quot;/blog_data/{page}&quot;, name=&quot;blog_data&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1879:2236" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2093:2146" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2179:2232" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2242:2287" ph=" @Route(&quot;/dump&quot;, name=&quot;twig_beginner&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2327:2392" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2398:2458" ph=" @Route(&quot;/twig_variable/{age}&quot;, name=&quot;twig_variable&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2502:2685" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2586:2680" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2625:2676" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2691:2735" ph=" @Route(&quot;/articles&quot;, name=&quot;articles&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2775:3798" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2794:3688" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2799:3015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3022:3238" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3245:3461" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3468:3684" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3715:3793" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3757:3789" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3804:3860" ph=" @Route(&quot;/articles/{id}&quot;, name=&quot;articles_single&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="3905:5021" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="3924:4818" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3929:4145" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4152:4368" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4375:4591" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4598:4814" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4907:5015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4952:5011" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5027:5063" ph=" @Route(&quot;/json&quot;, name=&quot;json&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5095:5710" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="5628:5705" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5663:5701" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5716:5766" ph=" @Route(&quot;/article_bdd&quot;, name=&quot;article_bdd&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5804:6238" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="6036:6050" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="6244:6300" ph=" @Route(&quot;/article_create&quot;, name=&quot;article_create&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="6341:6941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <marker date="1551639618000" expanded="true" signature="126:183" ph="..." />
+            <marker date="1551639618000" expanded="true" signature="255:287" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/logs/dev.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Annotation/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/twig_beginner.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerAwareTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../movies-rest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="269" column="7" lean-forward="true" selection-start-line="269" selection-start-column="7" selection-end-line="269" selection-end-column="7" />
+          <folding>
+            <marker date="1551639168000" expanded="false" signature="9:234" ph="..." />
+            <marker date="1551639168000" expanded="false" signature="296:1146" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="1151:1309" ph=" Common features needed in controllers. ..." />
+            <marker date="1551639168000" expanded="true" signature="1333:16131" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="1343:1563" ph=" Returns true if the service id is defined. ..." />
+            <marker date="1551639168000" expanded="true" signature="1597:1652" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="1661:1837" ph=" Gets a container service by its id. ..." />
+            <marker date="1551639168000" expanded="true" signature="1871:1926" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="1935:2348" ph=" Generates a URL from the given parameters. ..." />
+            <marker date="1551639168000" expanded="true" signature="2466:2573" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="2582:2950" ph=" Forwards the request to another controller. ..." />
+            <marker date="1551639168000" expanded="true" signature="3033:3394" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="3403:3667" ph=" Returns a RedirectResponse to the given URL. ..." />
+            <marker date="1551639168000" expanded="true" signature="3722:3786" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="3795:4150" ph=" Returns a RedirectResponse to the given route with the given parameters. ..." />
+            <marker date="1551639168000" expanded="true" signature="4238:4332" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="4341:4787" ph=" Returns a JsonResponse that uses the serializer component if enabled, or json_encode. ..." />
+            <marker date="1551639168000" expanded="true" signature="4869:5276" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="4926:5209" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="4994:5128" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="5021:5127" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="5022:5116" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="5285:5820" ph=" Returns a BinaryFileResponse object with original or customized file name and disposition header. ..." />
+            <marker date="1551639168000" expanded="true" signature="5933:6149" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="6158:6390" ph=" Adds a flash message to the current session for type. ..." />
+            <marker date="1551639168000" expanded="true" signature="6441:6745" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="6496:6658" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="6754:7080" ph=" Checks if the attributes are granted against the current authentication token and optionally supplied subject. ..." />
+            <marker date="1551639168000" expanded="true" signature="7145:7502" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="7223:7388" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="7511:7911" ph=" Throws an exception unless the attributes are granted against the current authentication token and optionally ..." />
+            <marker date="1551639168000" expanded="true" signature="8019:8297" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="8081:8290" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="8306:8560" ph=" Returns a rendered view. ..." />
+            <marker date="1551639168000" expanded="true" signature="8627:9116" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="8684:8777" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="8825:9034" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="9125:9433" ph=" Renders a view. ..." />
+            <marker date="1551639168000" expanded="true" signature="9523:10184" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="9580:9677" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="9719:9810" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="9818:10023" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="10059:10108" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="10193:10541" ph=" Streams a view. ..." />
+            <marker date="1551639168000" expanded="true" signature="10639:11545" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="10696:10917" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="10836:10906" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="10959:11157" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="11081:11146" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="11165:11370" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="11406:11467" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="11554:11948" ph=" Returns a NotFoundHttpException. ..." />
+            <marker date="1551639168000" expanded="true" signature="12050:12125" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="12134:12626" ph=" Returns an AccessDeniedException. ..." />
+            <marker date="1551639168000" expanded="true" signature="12737:13081" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="12802:13010" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="13090:13437" ph=" Creates and returns a Form instance from the type of the form. ..." />
+            <marker date="1551639168000" expanded="true" signature="13515:13613" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="13622:13878" ph=" Creates and returns a form builder instance. ..." />
+            <marker date="1551639168000" expanded="true" signature="13956:14071" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="14080:14293" ph=" Shortcut to return the Doctrine Registry service. ..." />
+            <marker date="1551639168000" expanded="true" signature="14332:14604" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="14388:14546" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="14613:14855" ph=" Get a user from the Security Token Storage. ..." />
+            <marker date="1551639168000" expanded="true" signature="14890:15409" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="14960:15125" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="15220:15249" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="15305:15379" ph="..." />
+            <marker date="1551639168000" expanded="true" signature="15418:15699" ph=" Checks the validity of a CSRF token. ..." />
+            <marker date="1551639168000" expanded="true" signature="15754:16129" ph="{...}" />
+            <marker date="1551639168000" expanded="true" signature="15829:16010" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/img/ok.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/img/nope.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/twig_exo/variable.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/twig_exo/array_multi.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/_article/_loop_articles.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/twig_exo/json.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/twig_exo/article_single.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/sass/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/sass/_detail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <marker date="1553870551000" expanded="true" signature="74:121" ph=" @ORM\Entity ..." />
+            <marker date="1553870551000" expanded="true" signature="137:578" ph="{...}" />
+            <marker date="1553870551000" expanded="true" signature="145:233" ph=" @ORM\Column(type=&quot;integer&quot;) ..." />
+            <marker date="1553870551000" expanded="true" signature="255:289" ph=" @ORM\Column(type=&quot;string&quot;) ..." />
+            <marker date="1553870551000" expanded="true" signature="314:335" ph=" @return mixed ..." />
+            <marker date="1553870551000" expanded="true" signature="364:386" ph="..." />
+            <marker date="1553870551000" expanded="true" signature="394:415" ph=" @return mixed ..." />
+            <marker date="1553870551000" expanded="true" signature="447:472" ph="..." />
+            <marker date="1553870551000" expanded="true" signature="479:506" ph=" @param mixed $title ..." />
+            <marker date="1553870551000" expanded="true" signature="546:573" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <marker date="1553786990000" expanded="true" signature="73:183" ph=" Book ..." />
+            <marker date="1553786990000" expanded="true" signature="196:1881" ph="{...}" />
+            <marker date="1553786990000" expanded="true" signature="206:340" ph=" @var int ..." />
+            <marker date="1553786990000" expanded="true" signature="368:460" ph=" @var string ..." />
+            <marker date="1553786990000" expanded="true" signature="491:586" ph=" @var int ..." />
+            <marker date="1553786990000" expanded="true" signature="619:713" ph=" @var string ..." />
+            <marker date="1553786990000" expanded="true" signature="745:840" ph=" @var string ..." />
+            <marker date="1553786990000" expanded="true" signature="871:890" ph=" @return int ..." />
+            <marker date="1553786990000" expanded="true" signature="924:946" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="953:975" ph=" @param int $id ..." />
+            <marker date="1553786990000" expanded="true" signature="1013:1034" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1041:1063" ph=" @return string ..." />
+            <marker date="1553786990000" expanded="true" signature="1103:1128" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1135:1163" ph=" @param string $title ..." />
+            <marker date="1553786990000" expanded="true" signature="1210:1237" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1244:1263" ph=" @return int ..." />
+            <marker date="1553786990000" expanded="true" signature="1302:1329" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1336:1363" ph=" @param int $nbPages ..." />
+            <marker date="1553786990000" expanded="true" signature="1411:1442" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1449:1471" ph=" @return string ..." />
+            <marker date="1553786990000" expanded="true" signature="1512:1538" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1545:1574" ph=" @param string $resume ..." />
+            <marker date="1553786990000" expanded="true" signature="1623:1652" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1659:1681" ph=" @return string ..." />
+            <marker date="1553786990000" expanded="true" signature="1724:1752" ph="..." />
+            <marker date="1553786990000" expanded="true" signature="1759:1790" ph=" @param string $category ..." />
+            <marker date="1553786990000" expanded="true" signature="1843:1876" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="259" column="44" lean-forward="false" selection-start-line="259" selection-start-column="44" selection-end-line="259" selection-end-column="44" />
+          <folding>
+            <marker date="1553871372000" expanded="true" signature="44:268" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="312:6943" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="320:512" ph=" action de controleur qui, pour l'url &quot;/&quot;, exécute la méthode indexAction, ..." />
+            <marker date="1553871372000" expanded="true" signature="564:805" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="660:797" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="688:796" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="814:856" ph=" @Route(&quot;/dump&quot;, name=&quot;dump&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="891:932" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="941:999" ph=" @Route(&quot;/response_symfony&quot;, name=&quot;response&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1038:1148" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1157:1213" ph=" @Route(&quot;/redirection&quot;, name=&quot;redirection&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1255:1418" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1427:1507" ph=" @Route(&quot;/request_query_parameter&quot;, name=&quot;request_query_parameter&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1575:1642" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1651:1700" ph=" @Route(&quot;/blog/{page}&quot;, name=&quot;blog&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1740:1779" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="1785:1838" ph=" @Route(&quot;/blog_data/{page}&quot;, name=&quot;blog_data&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="1879:2236" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2093:2146" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2179:2232" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2242:2287" ph=" @Route(&quot;/dump&quot;, name=&quot;twig_beginner&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2327:2392" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2398:2458" ph=" @Route(&quot;/twig_variable/{age}&quot;, name=&quot;twig_variable&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2502:2685" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2586:2680" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2625:2676" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2691:2735" ph=" @Route(&quot;/articles&quot;, name=&quot;articles&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="2775:3798" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="2794:3688" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="2799:3015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3022:3238" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3245:3461" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3468:3684" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3715:3793" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3757:3789" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3804:3860" ph=" @Route(&quot;/articles/{id}&quot;, name=&quot;articles_single&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="3905:5021" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="3924:4818" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="3929:4145" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4152:4368" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4375:4591" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4598:4814" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4907:5015" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="4952:5011" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5027:5063" ph=" @Route(&quot;/json&quot;, name=&quot;json&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5095:5710" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="5628:5705" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5663:5701" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="5716:5766" ph=" @Route(&quot;/article_bdd&quot;, name=&quot;article_bdd&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="5804:6238" ph="{...}" />
+            <marker date="1553871372000" expanded="true" signature="6036:6050" ph="..." />
+            <marker date="1553871372000" expanded="true" signature="6244:6300" ph=" @Route(&quot;/article_create&quot;, name=&quot;article_create&quot;) ..." />
+            <marker date="1553871372000" expanded="true" signature="6341:6941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

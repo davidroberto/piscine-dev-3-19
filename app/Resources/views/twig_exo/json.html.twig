@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+{# je fais une boucle sur ma variable jsonDecoded (récupérée depuis mon contrôleur)
+   pour pouvoir afficher chaque élément de mon objet / array php
+#}
+{% for pet in jsonDecoded.pets %}
+    <img src="{{ pet.photo }}" alt="">
+    <p>Nom : {{ pet.name }}</p>
+    <p>Espèce : {{ pet.species }}</p>
+    <p>Date de naissance : {{ pet.birthYear }}</p>
+    <div>
+        {#
+            A l'intérieur de chaque élément, j'ai un autre array. Donc je dois faire une nouvelle
+            boucle. Tous les éléments n'ont pas la clé favfoods, donc avant de faire la boucle,
+            je teste si la clé est définie.
+        #}
+        {% if pet.favFoods is defined %}
+            <p>Repas favoris :
+                {% for food in pet.favFoods %}
+                    <i>{{ food }}</i>,
+                {% endfor %}
+            </p>
+        {% endif %}
+    </div>
+    <br>
+{% endfor %}
+
+</body>
+</html>
