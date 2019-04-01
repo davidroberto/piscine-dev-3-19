@@ -275,7 +275,7 @@ class DefaultController extends Controller
 		$bookRepository = $this->getDoctrine()
 		                       ->getRepository(Book::class);
 
-		$books = $bookRepository->findByCategory();
+		$books = $bookRepository->searchByCategory();
 
 	}
 }

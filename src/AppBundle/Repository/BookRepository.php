@@ -17,7 +17,7 @@ class BookRepository extends \Doctrine\ORM\EntityRepository
 	// quand je créé une méthode dans cette classe,
 	// je peux l'appeler depuis mon controleur, en
 	// utilisant $this->getDoctrine()->getRepository(Book::Class)
-	public function findByCategory()
+	public function searchByCategory()
 	{
 		// je créé une variable $category, qui contient une valeur
 		// "en dur"
