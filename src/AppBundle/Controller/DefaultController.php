@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Article;
+use AppBundle\Entity\Author;
 use AppBundle\Entity\Book;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -268,26 +269,105 @@ class DefaultController extends Controller
 	}
 
 	/**
-	 * @Route("/book_search_cat", name="book_search_cat")
+	 * @Route("/library/book/search_cat/{cat}", name="book_search_cat")
 	 */
-	public function bookSearchCatAction()
+	public function bookSearchCatAction($cat)
 	{
 		$bookRepository = $this->getDoctrine()
 		                       ->getRepository(Book::class);
 
-		$books = $bookRepository->searchByCategory();
+		$books = $bookRepository->searchByCategory($cat);
+
+		dump($books); die;
 
 	}
 
 	/**
-	 * @Route("/book_search_resume/{word}", name="book_search_resume")
+	 * @Route("/library/author/search_resume/{word}", name="author_search_resume")
 	 */
 	public function bookSearchResumeAction($word)
 	{
 
-		$bookRepository = $this->getDoctrine()
-								->getRepository(Book::class);
+		$authorRepository = $this->getDoctrine()
+								->getRepository(Author::class);
 
-		$books = $bookRepository->searchByWordsInResume($word);
+		$authors = $authorRepository->searchByWordsInResume($word);
+
+		dump($authors); die;
 	}
+
+	/**
+	 * @Route("/library/book/list", name="book_list")
+	 */
+	public function bookListAction()
+	{
+		$bookRepository = $this->getDoctrine()
+		                      ->getRepository(Book::class);
+
+		$books = $bookRepository->findAll();
+
+		dump($books); die;
+
+	}
+
+	/**
+	 * @Route("/library/author/list", name="author_list")
+	 */
+	public function authorListAction()
+	{
+		$authorRepository = $this->getDoctrine()
+		                         ->getRepository(Author::class);
+
+		$authors = $authorRepository->findAll();
+
+		dump($authors); die;
+
+	}
+
+	/**
+	 * @Route("/library/book/details/{id}", name="book_details")
+	 */
+	public function bookDetailsAction($id)
+	{
+		$bookRepository = $this->getDoctrine()
+		                       ->getRepository(Book::class);
+
+		$book = $bookRepository->find($id);
+
+		dump($book); die;
+
+	}
+
+	/**
+	 * @Route("/library/author/details/{id}", name="author_details")
+	 */
+	public function authorDetailsAction($id)
+	{
+		$authorRepository = $this->getDoctrine()
+		                         ->getRepository(Author::class);
+
+		$author = $authorRepository->find($id);
+
+		dump($author); die;
+
+	}
+
+	/**
+	 * @Route("/library/book/delete", name="book_delete")
+	 */
+	public function bookDeleteAction()
+	{
+		$id = 2;
+
+		$bookRepository = $this->getDoctrine()->getRepository(Book::class);
+		$book = $bookRepository->find($id);
+
+		$entityManager = $this->getDoctrine()->getManager();
+
+		$entityManager->remove($book);
+		$entityManager->flush();
+
+		var_dump('Livre supprimé'); die;
+	}
+
 }

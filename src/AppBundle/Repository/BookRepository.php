@@ -17,11 +17,8 @@ class BookRepository extends \Doctrine\ORM\EntityRepository
 	// quand je créé une méthode dans cette classe,
 	// je peux l'appeler depuis mon controleur, en
 	// utilisant $this->getDoctrine()->getRepository(Book::Class)
-	public function searchByCategory()
+	public function searchByCategory($cat)
 	{
-		// je créé une variable $category, qui contient une valeur
-		// "en dur"
-		$category = 'Science-fiction';
 
 		// on utilise le query builder, qui nous permet
 		// de créer des requêtes en base de données pour
@@ -36,29 +33,15 @@ class BookRepository extends \Doctrine\ORM\EntityRepository
 		// à Science-fiction ($category contient "Science-fiction")
 		$query = $qb->select('b')
 					->where('b.category = :category')
-					->setParameter('category', $category)
+					->setParameter('category', $cat)
 					->getQuery();
 
 		// Je récupère les résultats de ma requête
 		$results = $query->getArrayResult();
 
 
-		var_dump($results); die;
+		return $results;
 
-	}
-
-	public function searchByWordsInResume($word)
-	{
-		$qb = $this->createQueryBuilder('b');
-
-		$query = $qb->select('b')
-					->where('b.resume LIKE :word')
-					->setParameter('word', '%'.$word.'%')
-					->getQuery();
-
-		$results = $query->getArrayResult();
-
-		var_dump($results); die;
 	}
 
 
