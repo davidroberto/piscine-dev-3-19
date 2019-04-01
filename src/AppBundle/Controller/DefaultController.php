@@ -227,12 +227,12 @@ class DefaultController extends Controller
 	{
 		// je récupère une instance de Doctrine
 		$articles = $this->getDoctrine()
-						//je récupère le Repository de l'entité Article
-						// (le repository me permet de faire des requêtes en bdd
-		                ->getRepository(Article::class)
-						// j'utilise la méthode find du repository pour récupérer l'élément
-						// dans la table article qui possède l'id 1.
-		                ->findAll();
+			//je récupère le Repository de l'entité Article
+			// (le repository me permet de faire des requêtes en bdd
+            ->getRepository(Article::class)
+			// j'utilise la méthode find du repository pour récupérer l'élément
+			// dans la table article qui possède l'id 1.
+            ->findAll();
 		var_dump($articles); die;
 	}
 
@@ -256,6 +256,7 @@ class DefaultController extends Controller
 		// j'enregistre en base de données mon article
 		$entityManager->persist($article);
 		$entityManager->flush();
+
 
 		return $this->render(
 			'article/article_create.html.twig',
