@@ -278,4 +278,16 @@ class DefaultController extends Controller
 		$books = $bookRepository->searchByCategory();
 
 	}
+
+	/**
+	 * @Route("/book_search_resume/{word}", name="book_search_resume")
+	 */
+	public function bookSearchResumeAction($word)
+	{
+
+		$bookRepository = $this->getDoctrine()
+								->getRepository(Book::class);
+
+		$books = $bookRepository->searchByWordsInResume($word);
+	}
 }

@@ -47,5 +47,19 @@ class BookRepository extends \Doctrine\ORM\EntityRepository
 
 	}
 
+	public function searchByWordsInResume($word)
+	{
+		$qb = $this->createQueryBuilder('b');
+
+		$query = $qb->select('b')
+					->where('b.resume LIKE :word')
+					->setParameter('word', '%'.$word.'%')
+					->getQuery();
+
+		$results = $query->getArrayResult();
+
+		var_dump($results); die;
+	}
+
 
 }
