@@ -10,4 +10,42 @@ namespace AppBundle\Repository;
  */
 class BookRepository extends \Doctrine\ORM\EntityRepository
 {
+	// création d'une nouvelle méthode du repository de Book
+	// pour récupérer un ou plusieurs livres
+	// en fonction de la category
+	//
+	// quand je créé une méthode dans cette classe,
+	// je peux l'appeler depuis mon controleur, en
+	// utilisant $this->getDoctrine()->getRepository(Book::Class)
+	public function findByCategory()
+	{
+		// je créé une variable $category, qui contient une valeur
+		// "en dur"
+		$category = 'Science-fiction';
+
+		// on utilise le query builder, qui nous permet
+		// de créer des requêtes en base de données pour
+		// la table Book (on est dans BookRepository)
+		$qb = $this->createQueryBuilder('b');
+
+		// je créé ma requête SQL en utilisant les
+		// méthode de Doctrine, qui ressemblent à du SQL
+		// et qui sont traduites par Doctrine en SQL
+		// Cette requête vient récupérer dans la table Livres,
+		// tous les livres dont la categorie est égale
+		// à Science-fiction ($category contient "Science-fiction")
+		$query = $qb->select('b')
+					->where('b.category = :category')
+					->setParameter('category', $category)
+					->getQuery();
+
+		// Je récupère les résultats de ma requête
+		$results = $query->getArrayResult();
+
+
+		var_dump($results); die;
+
+	}
+
+
 }

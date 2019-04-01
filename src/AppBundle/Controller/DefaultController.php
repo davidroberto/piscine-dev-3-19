@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Article;
+use AppBundle\Entity\Book;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -264,5 +265,17 @@ class DefaultController extends Controller
 				'article' => $article
 			]
 		);
+	}
+
+	/**
+	 * @Route("/book_search_cat", name="book_search_cat")
+	 */
+	public function bookSearchCatAction()
+	{
+		$bookRepository = $this->getDoctrine()
+		                       ->getRepository(Book::class);
+
+		$books = $bookRepository->findByCategory();
+
 	}
 }
