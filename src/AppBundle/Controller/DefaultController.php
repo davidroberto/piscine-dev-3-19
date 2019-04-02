@@ -257,6 +257,7 @@ class DefaultController extends Controller
 
 		// j'enregistre en base de données mon article
 		$entityManager->persist($article);
+
 		$entityManager->flush();
 
 
@@ -353,11 +354,10 @@ class DefaultController extends Controller
 	}
 
 	/**
-	 * @Route("/library/book/delete", name="book_delete")
+	 * @Route("/library/book/delete/{id}", name="book_delete")
 	 */
-	public function bookDeleteAction()
+	public function bookDeleteAction($id)
 	{
-		$id = 2;
 
 		$bookRepository = $this->getDoctrine()->getRepository(Book::class);
 		$book = $bookRepository->find($id);
@@ -368,6 +368,28 @@ class DefaultController extends Controller
 		$entityManager->flush();
 
 		var_dump('Livre supprimé'); die;
+	}
+
+	/**
+	 * @Route("/library/book/update/{id}", name="book_update")
+	 */
+	public function bookUpdateAction($id)
+	{
+		$bookRepository = $this->getDoctrine()->getRepository(Book::class);
+
+		$book = $bookRepository->find($id);
+
+		$book->setTitle('titre modifié via le setter');
+		$book->setNbPages(200);
+
+		$entityManager = $this->getDoctrine()->getManager();
+
+		// ligne pas nécessaire, le livre était déjà passé par l'unité de travail
+		// via le find, donc pas besoin de le refaire passer par l'unité de travail
+		$entityManager->persist($book);
+		$entityManager->flush();
+
+		var_dump('modification du titre via le setter'); die;
 	}
 
 }
