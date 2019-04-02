@@ -325,6 +325,45 @@ class DefaultController extends Controller
 
 	}
 
+
+	/**
+	 * @Route("/library/author/create", name="author_create")
+	 */
+	public function authorCreateAction()
+	{
+		$entityManager = $this->getDoctrine()->getManager();
+
+		$author = new Author();
+
+		$author->setName('Robert');
+		$author->getBio('blabla');
+		$author->setBirthDate(new \DateTime('1990-01-22'));
+
+		dump('auteur enregistré'); die;
+
+	}
+
+	/**
+	 * @Route("/library/book/create", name="book_create")
+	 */
+	public function bookCreateAction()
+	{
+		$entityManager = $this->getDoctrine()->getManager();
+		$author = $this->getDoctrine()->getRepository(Author::class)->find(1);
+
+		$book = new Book();
+
+		$book->setTitle('Pilgrim');
+		$book->setCategory('cat 1');
+		$book->setAuthor($author);
+
+		$entityManager->persist($book);
+		$entityManager->flush();
+
+		dump('auteur enregistré'); die;
+
+	}
+
 	/**
 	 * @Route("/library/book/details/{id}", name="book_details")
 	 */

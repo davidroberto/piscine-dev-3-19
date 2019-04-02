@@ -50,6 +50,11 @@ class Book
     private $category;
 
 	/**
+	 * @ORM\ManyToOne(targetEntity="Author")
+	 */
+	private $author;
+
+	/**
 	 * @return int
 	 */
 	public function getId(): int {
@@ -118,6 +123,21 @@ class Book
 	public function setCategory( string $category ) {
 		$this->category = $category;
 	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getAuthor() {
+		return $this->author;
+	}
+
+	/**
+	 * @param mixed $author
+	 */
+	public function setAuthor( $author ) {
+		$this->author = $author;
+	}
+
 
 
 }

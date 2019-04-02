@@ -42,7 +42,6 @@ class Author
      */
     private $bio;
 
-
     /**
      * Get id
      *
