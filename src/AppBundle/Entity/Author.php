@@ -43,10 +43,6 @@ class Author
      */
     private $bio;
 
-	/**
-	 * @ORM\OneToMany(targetEntity="Book", mappedBy="author")
-	 */
-	private $books;
 
 
 	public function __construct() {

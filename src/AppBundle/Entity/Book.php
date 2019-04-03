@@ -49,15 +49,12 @@ class Book
      */
     private $category;
 
-	/**
-	 * @ORM\ManyToOne(targetEntity="Author", inversedBy="books")
-	 */
-	private $author;
+
 
 	/**
 	 * @return int
 	 */
-	public function getId(): int {
+	public function getId() {
 		return $this->id;
 	}
 
@@ -71,7 +68,7 @@ class Book
 	/**
 	 * @return string
 	 */
-	public function getTitle(): string {
+	public function getTitle() {
 		return $this->title;
 	}
 

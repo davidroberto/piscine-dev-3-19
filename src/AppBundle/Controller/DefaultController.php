@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use AppBundle\Entity\Article;
 use AppBundle\Entity\Author;
 use AppBundle\Entity\Book;
+use AppBundle\Form\BookType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -348,31 +349,16 @@ class DefaultController extends Controller
 	 */
 	public function bookCreateAction()
 	{
-		// Je récupère un auteur en fonction de son ID avec la méthode
-		// find du repository des Auteurs
-		$author = $this->getDoctrine()->getRepository(Author::class)->find(1);
+		$bookForm = $this->createForm(BookType::class,  new Book());
 
-		// Je créé une nouvelle instance de l'entité Book
-		$book = new Book();
+		$bookFormView = $bookForm->createView();
 
-		// J'utilise les setters de l'entité Book pour remplir les valeurs
-		// de chacunes de propriétés (Titre, Categorie etc)
-		$book->setTitle('Pilgrim');
-		$book->setCategory('cat 1');
-		// j'utilise setAuthor de Book pour insérer mon entité Auteur créé
-		// dans la propriété Author de Book
-		$book->setAuthor($author);
-
-		// Je récupère l'entityManager
-		$entityManager = $this->getDoctrine()->getManager();
-
-		// J'insère le Livre dans l'unité de travail (la zone intermédiaire)
-		$entityManager->persist($book);
-		// Je pousse les données de l'unité de travail dans ma base de données
-		$entityManager->flush();
-
-		dump('auteur enregistré'); die;
-
+		return $this->render(
+			'book/book_create_form.html.twig',
+			[
+				'bookFormView' => $bookFormView
+			]
+		);
 	}
 
 	/**
