@@ -385,7 +385,12 @@ class DefaultController extends Controller
 
 		$book = $bookRepository->find($id);
 
-		dump($book); die;
+		return $this->render(
+			'book/book_details.html.twig',
+			[
+				'book' => $book
+			]
+		);
 
 	}
 

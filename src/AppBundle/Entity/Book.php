@@ -85,7 +85,7 @@ class Book
 	/**
 	 * @return int
 	 */
-	public function getNbPages(): int {
+	public function getNbPages() {
 		return $this->nbPages;
 	}
 
@@ -99,7 +99,7 @@ class Book
 	/**
 	 * @return string
 	 */
-	public function getResume(): string {
+	public function getResume() {
 		return $this->resume;
 	}
 
@@ -113,7 +113,7 @@ class Book
 	/**
 	 * @return string
 	 */
-	public function getCategory(): string {
+	public function getCategory(){
 		return $this->category;
 	}
 

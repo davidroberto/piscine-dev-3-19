@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>{{ book.title }}</h1>
+            <div>
+                {% if book.nbPages %}
+                    <p>Nombre de pages : {{ book.nbPages }}</p>
+                {% endif %}
+                {% if book.resume %}
+                    <p>Résumé : {{ book.resume }}</p>
+                {% endif %}
+                {% if book.category %}
+                    <p>Categorie : {{ book.category }}</p>
+                {% endif %}
+                {% if book.author %}
+                    Auteur : {{ book.author.name }}
+                {% endif %}
+            </div>
+        </article>
+    </main>
+</body>
+</html>
