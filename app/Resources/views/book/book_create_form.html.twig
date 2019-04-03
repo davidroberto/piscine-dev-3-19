@@ -8,6 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-    {{ form(bookFormView) }}
+    <div>
+        {{ form_errors(bookFormView.title) }}
+        <div class="book-form-title">
+            {{ form_widget(bookFormView.title) }}
+        </div>
+    </div>
+
+    <div>
+        {{ form_label(bookFormView.category) }}
+        {{ form_errors(bookFormView.category) }}
+        {{ form_widget(bookFormView.category) }}
+    </div>
+
+    <div>
+        {{ form_label(bookFormView.nbPages) }}
+        {{ form_errors(bookFormView.nbPages) }}
+        {{ form_widget(bookFormView.nbPages) }}
+    </div>
+
+    <div>
+        {{ form_label(bookFormView.resume) }}
+        {{ form_errors(bookFormView.resume) }}
+        {{ form_widget(bookFormView.resume) }}
+    </div>
+
+    <div>
+        {{ form_row(bookFormView.submit) }}
+    </div>
+
 </body>
 </html>
