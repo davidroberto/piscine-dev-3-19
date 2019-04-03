@@ -404,7 +404,12 @@ class DefaultController extends Controller
 
 		$author = $authorRepository->find($id);
 
-		dump($author); die;
+		return $this->render(
+			'author/author_details.html.twig',
+			[
+				'author' => $author
+			]
+		);
 
 	}
 

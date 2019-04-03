@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -42,7 +43,17 @@ class Author
      */
     private $bio;
 
-    /**
+	/**
+	 * @ORM\OneToMany(targetEntity="Book", mappedBy="author")
+	 */
+	private $books;
+
+
+	public function __construct() {
+		$this->books = new ArrayCollection();
+	}
+
+	/**
      * Get id
      *
      * @return int
@@ -123,5 +134,20 @@ class Author
     {
         return $this->bio;
     }
+
+	/**
+	 * @return mixed
+	 */
+	public function getBooks() {
+		return $this->books;
+	}
+
+	/**
+	 * @param mixed $books
+	 */
+	public function setBooks( $books ) {
+		$this->books = $books;
+	}
+
 }
 
