@@ -349,8 +349,12 @@ class DefaultController extends Controller
 	 */
 	public function bookCreateAction()
 	{
+		// création du gabarit de formulaire en utilisant la classe BookType
+		// générée par la ligne de commande generate:doctrine:form AppBundle:Book
 		$bookForm = $this->createForm(BookType::class,  new Book());
 
+		// utilisation du gabarit de formulaire pour créer une vue du formulaire
+		// à envoyer dans le fichier twig
 		$bookFormView = $bookForm->createView();
 
 		return $this->render(
