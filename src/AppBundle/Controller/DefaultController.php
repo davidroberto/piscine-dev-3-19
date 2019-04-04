@@ -347,15 +347,42 @@ class DefaultController extends Controller
 	/**
 	 * @Route("/library/book/create", name="book_create")
 	 */
-	public function bookCreateAction()
+	public function bookCreateAction(Request $request)
 	{
+		// Equivalent de passer la variable $request en parametre de
+		// la méthode bookCreateAction.
+		// la méthode createFromGlobals vient prendre les données
+		// de $_POST, $_GET et les regroupe.
+		//$request = Request::createFromGlobals();
+
+		$book = new Book();
+
 		// création du gabarit de formulaire en utilisant la classe BookType
 		// générée par la ligne de commande generate:doctrine:form AppBundle:Book
-		$bookForm = $this->createForm(BookType::class,  new Book());
+		$bookForm = $this->createForm(BookType::class, $book);
 
 		// utilisation du gabarit de formulaire pour créer une vue du formulaire
 		// à envoyer dans le fichier twig
 		$bookFormView = $bookForm->createView();
+
+		// je récupère la variable $request, qui contient les données de la requête
+		// et notamment les données de $_POST
+		$bookForm->handleRequest($request);
+
+		// je récupère ma variable $bookForm, qui contient désormais
+		// mon formulaire avec les données de ma requête,
+		// et je vérifie que des données ont bien été envoyées et
+		// qu'elles sont valides par rapport à ce que demande
+		// l'entité Book
+		if  ($bookForm->isSubmitted() && $bookForm->isValid()) {
+
+			// j'enregistre mon livre en base de données.
+			$entityManager = $this->getDoctrine()->getManager();
+			$entityManager->persist($book);
+			$entityManager->flush();
+
+			var_dump('livre enregistré'); die;
+		}
 
 		return $this->render(
 			'book/book_create_form.html.twig',
