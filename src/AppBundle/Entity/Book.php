@@ -49,6 +49,10 @@ class Book
      */
     private $category;
 
+	/**
+	 * @ORM\ManyToOne(targetEntity="Author", inversedBy="books")
+	 */
+	private $author;
 
 
 	/**
