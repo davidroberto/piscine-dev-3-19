@@ -11,7 +11,7 @@
     <div>
         {{ form_errors(bookFormView.title) }}
         <div class="book-form-title">
-            {{ form_widget(bookFormView.title) }}
+            {{ form_widget(bookFormView.title, { 'attr': {'class': 'widget-form-title'} }) }}
         </div>
     </div>
 
