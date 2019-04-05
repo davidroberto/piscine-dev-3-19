@@ -58,6 +58,28 @@ class AdminBookController extends Controller
 		// l'entité Book
 		if  ($bookForm->isSubmitted() && $bookForm->isValid()) {
 
+			// Je récupère l'image uploadée par l'utilisateur
+			$image = $book->getImage();
+
+			// Je génère un nom unique, suivi de l'extension de mon image
+			$imageName = md5(uniqid()).'.'.$image->guessExtension();
+
+			// Je déplace mon image dans un dossier en lui donnant
+			// le nom unique que j'ai créé
+			try {
+				$image->move(
+					$this->getParameter('upload_images_book'),
+					$imageName
+				);
+			// si y'a une erreur dans l'upload, j'affiche l'erreur
+			} catch (FileException $e) {
+				throw new \Exception($e->getMessage());
+			}
+
+			// Je remets dans mon entité (qui sera sauvegardée en BDD)
+			// le nom de l'image qu'on a créée.
+			$book->setImage($imageName);
+
 			// j'enregistre mon livre en base de données.
 			$entityManager = $this->getDoctrine()->getManager();
 			$entityManager->persist($book);

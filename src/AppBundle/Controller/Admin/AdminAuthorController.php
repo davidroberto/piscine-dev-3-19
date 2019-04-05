@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class AdminAuthorController extends Controller
 {
 	/**
-	 * @Route("/library/author/list", name="author_list")
+	 * @Route("admin/library/author/list", name="author_list")
 	 */
 	public function authorListAction()
 	{

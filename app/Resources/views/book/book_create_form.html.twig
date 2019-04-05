@@ -37,6 +37,18 @@
         </div>
 
         <div>
+            {{ form_label(bookFormView.image) }}
+            {{ form_errors(bookFormView.image) }}
+            {{ form_widget(bookFormView.image) }}
+        </div>
+
+        <div>
+            {{ form_label(bookFormView.author) }}
+            {{ form_errors(bookFormView.author) }}
+            {{ form_widget(bookFormView.author) }}
+        </div>
+
+        <div>
             {{ form_row(bookFormView.submit) }}
         </div>
 

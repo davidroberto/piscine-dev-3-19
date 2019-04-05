@@ -24,6 +24,10 @@
                 {% if book.author %}
                     Auteur : {{ book.author.name }}
                 {% endif %}
+
+                {% if book.image %}
+                    <img src="{{ asset('uploads/book/' ~ book.image)  }}" alt="">
+                {% endif %}
             </div>
         </article>
     </main>

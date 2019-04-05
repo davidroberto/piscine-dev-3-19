@@ -7,6 +7,7 @@ imports:
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
+    upload_images_book: '%kernel.project_dir%/web/uploads/book/'
 
 framework:
     #esi: ~
@@ -35,6 +36,7 @@ framework:
 twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+
 
 # Doctrine Configuration
 doctrine:

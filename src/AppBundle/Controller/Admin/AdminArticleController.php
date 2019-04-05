@@ -239,7 +239,7 @@ class AdminArticleController extends Controller
 	}
 
 	/**
-	 * @Route("/article_create", name="article_create")
+	 * @Route("/admin/article_create", name="article_create")
 	 */
 	public function articleCreateAction()
 	{

@@ -5,6 +5,7 @@ namespace AppBundle\Form;
 use AppBundle\Entity\Author;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -22,6 +23,7 @@ class BookType extends AbstractType
 	        ->add('resume')
 	        ->add('category')
 	        ->add('title')
+	        ->add('image', FileType::class)
 	        ->add('author', EntityType::class,
 		        [
 		        	'class' => Author::class,
